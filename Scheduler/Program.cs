@@ -1,6 +1,10 @@
 ﻿using Scheduler.Entities;
 using System;
 using System.Data.SqlClient;
+using static System.Net.Mime.MediaTypeNames;
+using System.Diagnostics.Metrics;
+using System.Numerics;
+using System.Threading.Tasks;
 
 namespace Scheduler
 {
@@ -8,7 +12,18 @@ namespace Scheduler
     {
         public static void Main(string[] args)
         {
-
+            
+            //        Structure:
+            //            1.Create a class structure that contains:
+            //2. Add the classes to allow the existence of the concept of:
+            //Application:
+            
+            
+           
+            
+            
+            
+           
             int opcao = 1;
             Teacher Teacher1 = new();
             Student Student1 = new();
@@ -16,7 +31,7 @@ namespace Scheduler
             while (opcao != 0)
             {
 
-                Console.WriteLine("#**************************************#");
+                Console.WriteLine("");
                 Console.WriteLine("# #");
                 Console.WriteLine("# --- MENU PRINCIPAL --- #");
                 Console.WriteLine("# #");

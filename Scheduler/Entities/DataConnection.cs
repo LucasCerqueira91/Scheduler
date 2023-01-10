@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-
 namespace Scheduler.Entities
 {
-    internal class Data_Connections
+    public class Data_Connections
+
     {
+
+        //1. When the application start it requests the username and password;
         //const string connectionString = @"Server=DESKTOP-1FA761O;Database=master;Trusted_Connection=True;";
         const string connectionString = @"Server=DESKTOP-1FA761O;Database=Scheduler;Trusted_Connection=True;";
         //Data Source = DESKTOP - 1FA761O;I
